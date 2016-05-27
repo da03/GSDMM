@@ -9,8 +9,8 @@ titles = lda.datasets.load_reuters_titles()
 X.shape
 X.sum()
 model = GSDMM(n_topics=20, n_iter=10, random_state=910820)
-model.fit(X)  # model.fit_transform(X) is also available
-topic_word = model.topic_word_  # model.components_ also works
+model.fit(X) 
+topic_word = model.topic_word_  
 n_top_words = 8
 for i, topic_dist in enumerate(topic_word):
     #topic_dist = topic_dist.toarray()[0]
