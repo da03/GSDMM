@@ -1,4 +1,6 @@
-# GSDMM
+# GSDMM (short text topic modeling) 
+
+## A python implementation of http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/KDD14-GSDMM.pdf)
 
 ## Usage: `python test_lda.py`
 
